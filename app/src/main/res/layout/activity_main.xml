@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:layout_marginTop="70sp"
+        android:layout_marginLeft="60sp"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:text="STUDENT DETAILS " />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="ENTER MARKS FOR THREE SUBJECTS "
+        android:textSize="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="150sp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="80sp"
+        android:layout_height="35sp"
+        android:textSize="20sp"
+        android:text="MATHS "
+        android:layout_marginTop="220sp"
+        android:layout_marginLeft="30sp"/>
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ENTER MARKS "
+        android:layout_marginTop="220sp"
+        android:layout_marginLeft="200sp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="120sp"
+        android:layout_height="35sp"
+        android:textSize="20sp"
+        android:text="CHEMISTRY  "
+        android:layout_marginTop="320sp"
+        android:layout_marginLeft="30sp"/>
+
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ENTER MARKS "
+        android:layout_marginTop="320sp"
+        android:layout_marginLeft="200sp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="100sp"
+        android:layout_height="35sp"
+        android:textSize="20sp"
+        android:text="PHYSICS "
+        android:layout_marginTop="420sp"
+        android:layout_marginLeft="30sp"/>
+
+    <EditText
+        android:id="@+id/ed5"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ENTER MARKS "
+        android:layout_marginTop="420sp"
+        android:layout_marginLeft="200sp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:text="NEXT"
+        android:layout_marginLeft="120sp"
+        android:layout_marginTop="500sp"
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>
